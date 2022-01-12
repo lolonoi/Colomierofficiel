@@ -1,0 +1,430 @@
+@charset "UTF-8";
+/** font inported
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');/**/
+nav, .picturenat2, .titleteam, .titlecolor,
+.textcolor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #c3daf1;
+}
+
+h3 {
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
+p,
+h2,
+h3 {
+  color: #473D2C;
+}
+
+h3:hover {
+  padding-left: 2rem;
+  letter-spacing: 2px;
+  -webkit-transition: all ease-in-out .4s;
+  transition: all ease-in-out .4s;
+}
+
+header {
+  width: 100vw;
+  min-height: 20vh;
+  min-width: auto;
+}
+
+nav {
+  margin-top: 5vh;
+}
+
+ul li {
+  display: inline;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.colors {
+  color: #23588c;
+}
+
+.btn {
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-head {
+  background-color: #23588c;
+  color: #c0d4e5;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  border: solid #23588c 1px;
+}
+
+.btn-head:hover {
+  background-color: #0f2942;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+li {
+  margin-left: 4vw;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  font-size: 1.2em;
+}
+
+li:hover {
+  border-bottom: #23588c 3px solid;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+a {
+  text-decoration: none;
+  color: #0f2942;
+  font-size: clamp(10px, 20px, 30px);
+}
+
+.titlen2 {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 600;
+  margin-left: 5%;
+}
+
+.img_fond {
+  background-image: url(../colomiermedia/Fond_2_20US_20Colomiers_20stade.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 426px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+/**fin du header **/
+/**début main **/
+.picturenat2 {
+  margin-top: 5%;
+  width: 70vw;
+}
+
+.titleteam {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5%;
+}
+
+.rowsection {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-top: 5%;
+  background-color: #bed6efdc;
+}
+
+.row2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.teams {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 80%;
+}
+
+.picrow2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.picturedetection,
+.asideshop {
+  width: 40vw;
+}
+
+.picturedetection {
+  padding-top: 6%;
+}
+
+.picturedetection p {
+  padding-top: 12%;
+}
+
+.btn-discovery {
+  margin-top: 10%;
+  font-size: 1.4rem;
+}
+
+.row2 p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 5%;
+}
+
+.partenaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-top: #23588c solid 1px;
+  background-color: #8285ad;
+}
+
+.partenaire div {
+  padding-bottom: 5%;
+}
+
+.partenaire div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline;
+  padding-left: 5%;
+}
+
+.textcolor {
+  color: #23588c;
+}
+
+.titlecolor {
+  background-color: #8285ad;
+}
+
+.btn-colab {
+  background-color: #23588c;
+  color: #c0d4e5;
+  font-size: 1.2rem;
+  margin-top: 5%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: #23588c 1px solid;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+  margin-left: 25%;
+}
+
+.btn-colab:hover {
+  padding-left: 2rem;
+  letter-spacing: 2px;
+  -webkit-transition: all ease-in-out .4s;
+  transition: all ease-in-out .4s;
+}
+
+/**fin du main **/
+/**Début du footer**/
+footer {
+  background: #1b1f2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #8285ad;
+}
+
+.socialNetwork {
+  display: inline;
+}
+
+.icons {
+  padding: 10px;
+  width: 2rem;
+}
+
+.icon-facebook {
+  color: #fff;
+}
+
+.icon-facebook:hover {
+  color: #3b5998;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+/** fin du footer**/
+@media screen and (max-width: 1146px) {
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    line-height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  ul {
+    padding-left: inherit;
+  }
+}
+
+/** small screen**/
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 0.8rem;
+  }
+  li a {
+    font-size: 1.2rem;
+  }
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    line-height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  ul {
+    padding-left: inherit;
+  }
+  .rowsection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 5%;
+    background-color: #bed6efdc;
+  }
+  .teams {
+    width: 60%;
+  }
+  .picturenat2 {
+    margin-top: 5%;
+    width: 100vw;
+  }
+  .row2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .row2 p {
+    margin-top: 1vh;
+    font-size: 1.1rem;
+  }
+  .picturedetection,
+  .asideshop {
+    width: 80vw;
+  }
+  .asideshop p {
+    padding-top: 5vh;
+  }
+  .picturedetection p {
+    padding-top: 5vh;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/** medium screen**/
+@media screen and (max-width: 455px) {
+  footer span {
+    font-size: 0.8rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  .btn-colab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: inherit;
+    margin: 0 auto;
+  }
+  .teams {
+    width: 85%;
+  }
+}
+/*# sourceMappingURL=sass.css.map */
